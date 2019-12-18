@@ -1,0 +1,6 @@
+# AWS Lambda Function
+#function:
+#  name: parseBasicCsvFunction
+kinesis:
+  stream:
+    name: test-stream

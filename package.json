@@ -1,0 +1,9 @@
+{
+  "name": "tip-ingest",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "tip ingestion",
+  "devDependencies": {
+    "serverless": "^1.59.3",
+    "serverless-pseudo-parameters": "^2.5.0"
+  }
+}
