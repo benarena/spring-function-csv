@@ -12,7 +12,7 @@ The service is deployed using the [Serverless Framework](http://serverless.com):
 
 # Usage
 Drop a CSV file in the S3 bucket created in the serverless config.
-The parsed records will be placed on a Kinesis topic.
+The parsed records will be placed on the Kinesis topic `test-stream`.
 
 # Lessons Learned
 [Spring Cloud Function documentation](https://cloud.spring.io/spring-cloud-function/reference/html/) 
