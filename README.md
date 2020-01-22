@@ -10,6 +10,10 @@ The service can be built using maven: `mvn install`
 The service is deployed using the [Serverless Framework](http://serverless.com):
 `sls deploy`.
 
+# Usage
+Drop a CSV file in the S3 bucket created in the serverless config.
+The parsed records will be placed on a Kinesis topic.
+
 # Lessons Learned
 [Spring Cloud Function documentation](https://cloud.spring.io/spring-cloud-function/reference/html/) 
 is still lacking in ease of understanding. There are also very 
