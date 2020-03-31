@@ -3,7 +3,7 @@
   "version": "0.0.1-SNAPSHOT",
   "description": "tip ingestion",
   "devDependencies": {
-    "serverless": "^1.59.3",
+    "serverless": "^1.67.0",
     "serverless-pseudo-parameters": "^2.5.0"
   }
 }
